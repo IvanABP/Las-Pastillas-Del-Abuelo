@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    width: 100%;
+    position:absolute;
+    height: 770px;
+   
+}
+.barra{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content:center ;
+    align-items:center ;
+    color: #fff
+
+}
+
+.barra ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin-top: 25px;
+    
+}
+.barra ul li{
+    width: 150px;
+}
+.barra ul li:hover{
+    cursor: pointer;
+    border: 3px solid rgb(88, 48, 48);
+    width: 150px;
+    background-color: rgb(84, 69, 69);
+   
+}
+.logo{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    align-content: center;
+    height: 60vw;
+}
+.logo img {
+    height: 200px;
+    border: solid 5px #4b3b3b;
+    border-radius: 30px;
+}
+
+.frases{
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 130px;
+}
+.frases img{
+    border-radius: 50px;
+    height: 300px;
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+    
+
+}
+
+.frases img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  
+}
+.frases div p{
+    text-align: center;
+}
+main{
+    background-color: rgb(228, 226, 226);
+}
+footer{
+    margin: 20px;
+}

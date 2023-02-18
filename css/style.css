@@ -8,7 +8,7 @@
 .fondo{
     width: 100%;
     position:absolute;
-    height: 900px;
+    height: 750px;
    
 }
 .barra{
@@ -48,10 +48,11 @@
     justify-content: center;
     align-items: end;
     align-content: center;
-    height: 60vw;
+    width: 92%;
+    height: 65vw;
 }
 .logo img {
-    height: 200px;
+    height: 210px;
     border: solid 5px #4b3b3b;
     border-radius: 30px;
     margin-left: 130px;
@@ -62,15 +63,16 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    align-content: center;
     height: 400px;
-    margin-left: 20px;
-    margin-right: 130px;
+    margin-left: 10px;
+    margin-right: 90px;
     font-family: 'Indie Flower', cursive;
-    font-size: 25px;
+    font-size: 20px;
+    gap: 100px;
 }
 .frases p{
-    transform: rotate(-25deg);
+    transform: rotate(-20deg);
+    text-align: center;
 }
 #p-rotate{
     transform: rotate(25deg);
@@ -79,7 +81,7 @@
     border-radius: 50px;
     height: 300px;
     display: flex;
-    margin: 20px;
+    margin: 5px;
     gap: 10px;
     
 
@@ -90,20 +92,18 @@
   cursor: pointer;
   
 }
-.frases div p{
-    text-align: center;
-}
 main{
     background-color: rgb(228, 226, 226);
 }
 footer{
-    background: linear-gradient(to top, rgb(75, 75, 75), rgb(228, 226, 226));
+    background: linear-gradient(to top, rgb(101, 101, 101), rgb(228, 226, 226));
     padding: 0px 20px 0px 20px;
     font-family: 'Righteous', cursive;
     
 }
 footer img {
     width: 50px;
+
 }
 footer div{
     display: flex;
@@ -111,4 +111,5 @@ footer div{
     align-items: center;
     text-align: center;
     gap:30px;
+    padding: 4px;
 }

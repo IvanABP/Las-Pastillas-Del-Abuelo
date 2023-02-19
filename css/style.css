@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap');
 
 *{
     margin: 0;
@@ -41,8 +42,8 @@
 a{
     text-decoration: none;
 }
-a:link {text-decoration: none }
-a:hover { color: rgb(255, 255, 255)text-decoration: none }
+a:link {color:white; text-decoration: none }
+a:hover { color: rgb(255, 255, 255);text-decoration: none }
 a:visited {color: rgb(255, 255, 255); text-decoration: none }
 
 .barra ul li:hover{
@@ -126,4 +127,43 @@ footer div{
     text-align: center;
     gap:30px;
     padding: 4px;
+}
+
+.album{
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bangers', cursive;
+}
+.album div{
+    margin: 30px;
+    padding: 20px;
+}
+.album img {
+    width: 110px;
+    height: 120px;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    border: solid 3px;
+    margin:5px 1000px 0px 10px;
+    text-align: center;
+}
+.album div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 15px;
+    border-style:inset;
+    padding: 40px;
+    border-radius: 100px;
+}
+iframe{
+    border-radius: 20px;
 }
